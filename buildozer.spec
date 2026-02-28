@@ -8,8 +8,8 @@ version = 1.0
 requirements = python3,kivy
 
 android.api = 33
-android.sdk = 24
-android.ndk = 25b
+android.sdk = 33
+android.ndk = 25.2.9519653
 android.arch = arm64-v8a
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 android.apptheme = @android:style/Theme.Holo.Light
