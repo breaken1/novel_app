@@ -1,0 +1,15 @@
+[app]
+title = 小说阅读器
+package.name = novelreader
+package.domain = com.example
+source.dir = .
+version = 1.0
+
+requirements = python3,kivy==2.2.1
+
+android.api = 33
+android.sdk = 33
+android.ndk = 25.2.9519653
+android.arch = arm64-v8a
+android.permissions = android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+android.apptheme = @android:style/Theme.Material.Light
